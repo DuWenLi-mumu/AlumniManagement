@@ -13,10 +13,9 @@ import java.util.List;
 @RequestMapping(path = "/user")
 // 进入这个 controller 需要是 localhost:8081/user/xxxx 这样的 URL
 // 如果 localhost 不行, 尝试 127.0.0.1:8081/user/xxxx
-public class UserController {
+public class UserInfoController {
     @Autowired
     UserInfoService userInfoService;
-
 
     // localhost:8081/user/getAll
     @CrossOrigin

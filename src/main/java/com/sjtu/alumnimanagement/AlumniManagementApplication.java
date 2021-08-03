@@ -7,7 +7,6 @@ import org.springframework.context.annotation.ComponentScan;
 
 //@SpringBootApplication(exclude= {DataSourceAutoConfiguration.class})
 @SpringBootApplication
-@ComponentScan("com.sjtu.alumnimanagement")
 public class AlumniManagementApplication {
 
     public static void main(String[] args) {
