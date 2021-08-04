@@ -2,7 +2,6 @@ package com.sjtu.alumnimanagement.service;
 
 import com.sjtu.alumnimanagement.dao.FamilyRelationDao;
 import com.sjtu.alumnimanagement.entity.FamilyRelation;
-import com.sjtu.alumnimanagement.entity.UserInfo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
