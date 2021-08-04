@@ -10,7 +10,7 @@ import java.util.List;
 
 @Controller
 @RestController
-@RequestMapping(path = "/user")
+@RequestMapping(path = "/userinfo")
 // 进入这个 controller 需要是 localhost:8081/user/xxxx 这样的 URL
 // 如果 localhost 不行, 尝试 127.0.0.1:8081/user/xxxx
 public class UserInfoController {

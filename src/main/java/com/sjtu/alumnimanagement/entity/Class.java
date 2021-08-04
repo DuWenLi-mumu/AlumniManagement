@@ -6,21 +6,18 @@ import lombok.Data;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "userinfo")
+@Table(name = "class")
 @JsonIgnoreProperties({"handler", "hibernateLazyInitializer"})
 @Data
-public class UserInfo {
+public class Class {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
     private int id;
 
-    @Column(name = "username")
-    private String username;
-
-    @Column(name = "passwd")
-    private String passwd;
-
     @Column(name = "level")
     private int level;
+    @Column(name = "level_name")
+    private String level_name;
+
 }
