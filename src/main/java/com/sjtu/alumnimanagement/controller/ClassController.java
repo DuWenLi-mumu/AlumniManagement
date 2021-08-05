@@ -25,10 +25,9 @@ public class ClassController {
     @CrossOrigin
     @GetMapping(path = "/getById")
     public Class getById(@RequestParam int id) {
+        System.out.println("getById");
         return classService.getClassById(id);
     }
-
-
 
 
 }
