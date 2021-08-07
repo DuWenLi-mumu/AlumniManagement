@@ -11,7 +11,7 @@ import java.util.List;
 
 @Controller
 @RestController
-@RequestMapping(path = "/associated_person")
+@RequestMapping(path = "/api/associated_person")
 public class AssociatedPersonController {
     @Autowired
     AssociatedPersonService associatedPersonService;

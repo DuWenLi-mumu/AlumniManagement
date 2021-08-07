@@ -10,7 +10,7 @@ import java.util.List;
 
 @Controller
 @RestController
-@RequestMapping(path = "/important_alumni_information")
+@RequestMapping(path = "/api/important_alumni_information")
 public class ImportantAlumniInformationController {
     @Autowired
     ImportantAlumniInformationService importantAlumniInformationService;

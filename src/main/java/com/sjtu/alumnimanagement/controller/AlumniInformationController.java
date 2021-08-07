@@ -11,7 +11,7 @@ import java.util.List;
 
 @Controller
 @RestController
-@RequestMapping(path = "/alumni_information")
+@RequestMapping(path = "/api/alumni_information")
 public class AlumniInformationController {
     @Autowired
     AlumniInformationService alumniInformationService;

@@ -11,7 +11,7 @@ import java.util.List;
 
 @Controller
 @RestController
-@RequestMapping(path = "/moments")
+@RequestMapping(path = "/api/moments")
 public class MomentsController {
     @Autowired
     MomentsService momentsService;

@@ -11,7 +11,7 @@ import java.util.List;
 
 @Controller
 @RestController
-@RequestMapping(path = "/family_relation")
+@RequestMapping(path = "/api/family_relation")
 public class FamilyRelationController {
     @Autowired
     FamilyRelationService familyRelationService;
